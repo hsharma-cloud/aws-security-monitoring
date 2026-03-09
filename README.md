@@ -2,7 +2,7 @@
 AWS security monitoring implementation using VPC Flow Logs, CloudWatch, CloudTrail, Amazon Inspector, and Security Hub.
 
 
-## Architecture Overview
+## EC2 Instance Configuration
 ![Architecture Diagram](screenshots/ec2-architecture.png)
 
 This project demonstrates an AWS security monitoring architecture using native AWS services to monitor network traffic, audit account activity, and detect vulnerabilities.
