@@ -2,8 +2,25 @@
 AWS security monitoring implementation using VPC Flow Logs, CloudWatch, CloudTrail, Amazon Inspector, and Security Hub.
 
 
+## Architecture Overview
 
+This project demonstrates an AWS security monitoring architecture using native AWS services to monitor network traffic, audit account activity, and detect vulnerabilities.
 
+Security monitoring stack:
+
+Internet → Bastion Host → Private EC2 Instance  
+                 ↓  
+            VPC Flow Logs  
+                 ↓  
+         Amazon CloudWatch Logs  
+                 ↓  
+           AWS Security Hub  
+
+Additional services used:
+
+- AWS CloudTrail for API auditing
+- Amazon Inspector for vulnerability scanning
+- AWS Security Hub for centralized security findings
 
 
 
