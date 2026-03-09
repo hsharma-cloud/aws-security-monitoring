@@ -39,6 +39,9 @@ AWS security monitoring implementation using VPC Flow Logs, CloudWatch, CloudTra
 ## Implementation Screenshots
 
 ### EC2 Architecture
+## Implementation Screenshots
+
+### EC2 Architecture
 ![EC2 Architecture](screenshots/EC2 Instances architecture.png)
 
 ### EBS Volume Mounted
@@ -55,7 +58,6 @@ AWS security monitoring implementation using VPC Flow Logs, CloudWatch, CloudTra
 
 ### CloudWatch Log Group
 ![CloudWatch Logs](screenshots/CloudWatch Log Group.png)
-
 ### CloudTrail Logs
 ![CloudTrail Logs](screenshots/CloudTrailLogs.png)
 
